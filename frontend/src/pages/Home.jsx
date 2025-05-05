@@ -3,7 +3,15 @@ import { Box, Typography, Container, Grid, Button } from '@mui/material'
 const Home = () => {
   return (
     <Container>
-      <Box sx={{ mt: 8, mb: 4 }}>
+      <Box sx={{ 
+                display: 'flex', 
+                flexDirection: 'column', 
+                minHeight: '100vh', 
+                justifyContent: 'center', 
+                alignItems: 'center', 
+                textAlign: 'center' 
+              }}
+      >
         <Typography variant="h2" component="h1" gutterBottom align="center">
           Welcome to PawResCure
         </Typography>
